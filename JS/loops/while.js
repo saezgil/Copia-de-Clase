@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // let i = 0
 // let personas = prompt("ingrese la cantidad")
 
@@ -31,4 +32,21 @@ while (i =< TotalAlumnos){
     document.write("APROBADO");
 } else {
     document.write("DESAPROBADO")
+=======
+let loops = 5;
+let i = 1;
+let total = 0;
+while(i <= loops) {
+    // document.write("Veces que se ejecuta el bucle:" + i + "<br>");
+    total = total + i;
+    i++;
+}
+
+console.log("Total: " + total);
+
+
+while(age == false) {
+    age = prompt("¿Cuál es tu edad?");
+    age = parseInt(age);
+>>>>>>> bd0add399168e898ab34052ec2a3b30fdbe21256
 }
